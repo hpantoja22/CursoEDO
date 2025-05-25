@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Curso Interactivo: Sistemas Resorte-Masa y EDOs</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class', // or 'media'
+      theme: {
+        extend: {
+          colors: {
+            // Light theme colors from original CSS vars
+            'custom-bg-light': '#f0f8ff',
+            'custom-text-light': '#333',
+            'custom-header-bg-light': '#4682b4',
+            'custom-header-text-light': '#fff',
+            'custom-primary-button-bg-light': '#5f9ea0',
+            'custom-primary-button-hover-light': '#4682b4',
+            'custom-secondary-button-bg-light': '#87ceeb',
+            'custom-secondary-button-hover-light': '#6aabcb',
+            'custom-progress-bar-fill-light': '#32cd32',
+            'custom-progress-bar-bg-light': '#e0e0e0',
+            'custom-card-bg-light': '#ffffff',
+            'custom-border-light': '#ddd',
+            'custom-input-bg-light': '#f8f8f8',
+            'custom-input-border-light': '#ccc',
+            'custom-feedback-correct-light': '#28a745',
+            'custom-feedback-incorrect-light': '#dc3545',
+            'custom-icon-color-light': '#4682b4',
+            // Dark theme colors
+            'custom-bg-dark': '#2c3e50',
+            'custom-text-dark': '#ecf0f1',
+            'custom-header-bg-dark': '#34495e',
+            'custom-header-text-dark': '#fff',
+            'custom-primary-button-bg-dark': '#3498db',
+            'custom-primary-button-hover-dark': '#2980b9',
+            'custom-secondary-button-bg-dark': '#5dade2',
+            'custom-secondary-button-hover-dark': '#7fb3d5',
+            'custom-progress-bar-fill-dark': '#2ecc71',
+            'custom-progress-bar-bg-dark': '#555',
+            'custom-card-bg-dark': '#3b506b',
+            'custom-border-dark': '#555',
+            'custom-input-bg-dark': '#444',
+            'custom-input-border-dark': '#777',
+            'custom-feedback-correct-dark': '#2ecc71',
+            'custom-feedback-incorrect-dark': '#e74c3c',
+            'custom-icon-color-dark': '#3498db',
+          }
+        }
+      }
+    }
+  </script>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/"
+  }
+}
+</script>
+</head>
+<body class="bg-custom-bg-light dark:bg-custom-bg-dark text-custom-text-light dark:text-custom-text-dark transition-colors duration-300">
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
+<link rel="stylesheet" href="index.css">
+<script src="index.tsx" type="module"></script>

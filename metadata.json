@@ -1,0 +1,6 @@
+{
+  "name": "Interactive Physics Course: Spring-Mass Systems",
+  "description": "An interactive web application to learn about spring-mass systems and ordinary differential equations, featuring simulations and exercises.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
